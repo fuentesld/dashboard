@@ -43,7 +43,7 @@
                         </div>
                     </li>
                     <li><a href="index.html"><i class="material-icons">dashboard</i> Dashboard</a></li>
-                    <li><a href="posts.htlm">Mensajes</a></li>
+                    <li><a href="posts.html">Posts</a></li>
                     <li><a href="categories.html">Categorias</a></li>
                     <li><a href="comments.html">Comentarios</a></li>
                     <li><a href="users.html">Usuarios</a></li>
@@ -122,7 +122,9 @@
                     <li class="collection-item  avatar">
                         <img src="img/person1.jpg" class="circle">
                         <span class="title">Luis Fuentes</span>
-                        <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi harum aperiam nulla blanditiis quae voluptatem totam ea explicabo magni, facilis, dolore ducimus soluta consectetur rem itaque vel tenetur id impedit!</p>
+                        <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi harum
+                            aperiam nulla blanditiis quae voluptatem totam ea explicabo magni, facilis, dolore ducimus
+                            soluta consectetur rem itaque vel tenetur id impedit!</p>
                         <a href="" class="approve green-text">Approve</a> |
                         <a href="" class="deny red-text">Deny</a>
                     </li>
@@ -130,14 +132,18 @@
                     <li class="collection-item  avatar">
                         <img src="img/person2.jpg" class="circle">
                         <span class="title">Pablo Ruiz</span>
-                        <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi harum aperiam nulla blanditiis quae voluptatem totam ea explicabo magni, facilis, dolore ducimus soluta consectetur rem itaque vel tenetur id impedit!</p>
+                        <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi harum
+                            aperiam nulla blanditiis quae voluptatem totam ea explicabo magni, facilis, dolore ducimus
+                            soluta consectetur rem itaque vel tenetur id impedit!</p>
                         <a href="" class="approve green-text">Approve</a> |
                         <a href="" class="deny red-text">Deny</a>
                     </li>
                     <li class="collection-item  avatar">
                         <img src="img/person3.jpg" class="circle">
                         <span class="title">Alba Solis</span>
-                        <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi harum aperiam nulla blanditiis quae voluptatem totam ea explicabo magni, facilis, dolore ducimus soluta consectetur rem itaque vel tenetur id impedit!</p>
+                        <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi harum
+                            aperiam nulla blanditiis quae voluptatem totam ea explicabo magni, facilis, dolore ducimus
+                            soluta consectetur rem itaque vel tenetur id impedit!</p>
                         <a href="" class="approve green-text">Approve</a> |
                         <a href="" class="deny red-text">Deny</a>
                     </li>
@@ -185,7 +191,7 @@
             <div class="col s12 m6 l4">
                 <div class="card">
                     <div class="card-content">
-                        <span class="card-title">Recordatorios Rápidos</span>
+                        <span class="card-title">Recordatorios</span>
                         <form id="todo-form">
                             <div class="input-field">
                                 <input type="text" id="todo" placeholder="add todo....">
@@ -325,8 +331,8 @@
     <script src="https://cdn.ckeditor.com/4.10.1/standard/ckeditor.js"></script>
     <script>
         $('.section').hide();
-        setTimeout(function() {
-            $(document).ready(function() {
+        setTimeout(function () {
+            $(document).ready(function () {
                 // Show Section
                 $('.section').fadeIn();
 
@@ -343,30 +349,30 @@
                 $('select').material_select();
 
                 // Counter
-                $(".count").each(function() {
+                $(".count").each(function () {
                     $(this).prop("Counter", 0).animate({
                         Counter: $(this).text()
                     }, {
-                        duration: 1000,
-                        easing: "swing",
-                        step: function(now) {
-                            $(this).text(Math.ceil(now));
-                        }
-                    });
+                            duration: 1000,
+                            easing: "swing",
+                            step: function (now) {
+                                $(this).text(Math.ceil(now));
+                            }
+                        });
                 });
 
                 // Commets Aprobe Deny
-                $('.approve').click(function(e) {
+                $('.approve').click(function (e) {
                     Materialize.toast("Comment Approved", 3000)
                     e.preventDefault();
                 });
-                $('.deny').click(function(e) {
+                $('.deny').click(function (e) {
                     Materialize.toast("Comment Deny", 3000)
                     e.preventDefault();
                 });
 
                 // Quick todos
-                $("#todo-form").submit(function(e) {
+                $("#todo-form").submit(function (e) {
                     const output = `<li class="collection-item">
                                 <div>${$('#todo').val()}
                                     <a href="#!" class="secondary-content delete"><i class="material-icons">close</i></a></div>
@@ -377,7 +383,7 @@
                 });
 
                 //Delete Todos
-                $('.todos').on('click', '.delete', function(e) {
+                $('.todos').on('click', '.delete', function (e) {
                     $(this).parent().parent().remove();
                     e.preventDefault();
                     Materialize.toast("Todo Removed", 3000)
