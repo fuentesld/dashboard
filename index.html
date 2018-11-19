@@ -1,460 +1,418 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <!-- Import Google Icon Font -->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <!-- Import materialize.css -->
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="css/materialize.min.css"
-      media="screen,projection"
-    />
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/main.css" />
 
     <!-- Let browser know website is optimized for mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
-  </head>
+</head>
 
-  <body class="grey lighten-4">
+<body class="grey lighten-4">
     <nav class="blue darken-2">
-      <div class="container">
-        <nav class="nav-wrapper">
-          <a href="index.html" class="brand-logo">JoinTICs</a>
-          <a
-            href="#"
-            data-activates="side-nav"
-            class="button-collapse show-on-large right"
-          >
-            <i class="material-icons">menu</i>
-          </a>
-          <ul class="right hide-on-med-and-down">
-            <li class="active"><a href="index.html">Dashboard</a></li>
-            <li><a href="posts.html">Posts</a></li>
-            <li><a href="categories.html">Categorias</a></li>
-            <li><a href="comments.html">Commentarios</a></li>
-            <li><a href="users.html">Usuarios</a></li>
-          </ul>
-          <!-- Side Nav -->
-          <ul id="side-nav" class="side-nav">
-            <li>
-              <div class="user-view">
-                <div class="background"><img src="img/ocean.jpg" alt="" /></div>
-                <a href="#"
-                  ><img src="img/person1.jpg" alt="" class="circle"
-                /></a>
-                <a href="#"><span class="name white-text">Juan Péres</span></a>
-                <a href="#"
-                  ><span class="email white-text">jperes@gmail</span></a
-                >
-              </div>
-            </li>
-            <li>
-              <a href="index.html"
-                ><i class="material-icons">dashboard</i> Dashboard</a
-              >
-            </li>
-            <li><a href="posts.html">Posts</a></li>
-            <li><a href="categories.html">Categorias</a></li>
-            <li><a href="comments.html">Comentarios</a></li>
-            <li><a href="users.html">Usuarios</a></li>
-            <li><div class="divider"></div></li>
-            <li><a class="subheader">Control de Cuenta</a></li>
-            <li><a href="login.html" class="waves-efect">Logout</a></li>
-          </ul>
-        </nav>
-      </div>
+        <div class="container">
+            <nav class="nav-wrapper">
+                <a href="index.html" class="brand-logo">JoinTICs</a>
+                <a href="#" data-activates="side-nav" class="button-collapse show-on-large right">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="active"><a href="index.html">Dashboard</a></li>
+                    <li><a href="posts.html">Posts</a></li>
+                    <li><a href="categories.html">Categorias</a></li>
+                    <li><a href="comments.html">Commentarios</a></li>
+                    <li><a href="users.html">Usuarios</a></li>
+                </ul>
+                <!-- Side Nav -->
+                <ul id="side-nav" class="side-nav">
+                    <li>
+                        <div class="user-view">
+                            <div class="background"><img src="img/ocean.jpg" alt="" /></div>
+                            <a href="#"><img src="img/person1.jpg" alt="" class="circle" /></a>
+                            <a href="#"><span class="name white-text">Juan Péres</span></a>
+                            <a href="#"><span class="email white-text">jperes@gmail</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="material-icons">dashboard</i> Dashboard</a>
+                    </li>
+                    <li><a href="posts.html">Posts</a></li>
+                    <li><a href="categories.html">Categorias</a></li>
+                    <li><a href="comments.html">Comentarios</a></li>
+                    <li><a href="users.html">Usuarios</a></li>
+                    <li>
+                        <div class="divider"></div>
+                    </li>
+                    <li><a class="subheader">Control de Cuenta</a></li>
+                    <li><a href="login.html" class="waves-efect">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
     </nav>
 
     <!-- Section Stats -->
     <section class="section section-stats">
-      <div class="row">
-        <div class="col s12 m6 l3">
-          <div class="card-panel center blue lighten-1 white-text">
-            <i class="material-icons medium">insert_emoticon</i>
-            <h5>Visitas Mensuales</h5>
-            <h3 class="count">23800</h3>
-            <div class="progress grey lighten-1">
-              <div class="determinate white" style="width:40%;"></div>
+        <div class="row">
+            <div class="col s12 m6 l3">
+                <div class="card-panel center blue lighten-1 white-text">
+                    <i class="material-icons medium">insert_emoticon</i>
+                    <h5>Visitas Mensuales</h5>
+                    <h3 class="count">23800</h3>
+                    <div class="progress grey lighten-1">
+                        <div class="determinate white" style="width:40%;"></div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col s12 m6 l3">
-          <div class="card-panel center">
-            <i class="material-icons medium">mode_edit</i>
-            <h5>Post en Blog</h5>
-            <h3 class="count">105</h3>
-            <div class="progress grey lighten-1">
-              <div class="determinate blue lighten-1" style="width:20%;"></div>
+            <div class="col s12 m6 l3">
+                <div class="card-panel center">
+                    <i class="material-icons medium">mode_edit</i>
+                    <h5>Post en Blog</h5>
+                    <h3 class="count">105</h3>
+                    <div class="progress grey lighten-1">
+                        <div class="determinate blue lighten-1" style="width:20%;"></div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <div class="col s12 m6 l3">
-          <div class="card-panel blue lighten-1 white-text center">
-            <i class="material-icons medium">mode_comment</i>
-            <h5>Comentarios</h5>
-            <h3 class="count">1200</h3>
-            <div class="progress grey lighten-1">
-              <div class="determinate white" style="width: 40%;"></div>
+            <div class="col s12 m6 l3">
+                <div class="card-panel blue lighten-1 white-text center">
+                    <i class="material-icons medium">mode_comment</i>
+                    <h5>Comentarios</h5>
+                    <h3 class="count">1200</h3>
+                    <div class="progress grey lighten-1">
+                        <div class="determinate white" style="width: 40%;"></div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <div class="col s12 m6 l3">
-          <div class="card-panel center">
-            <i class="material-icons medium">supervisor_account</i>
-            <h5>Usuarios</h5>
-            <h3 class="count">350</h3>
-            <div class="progress grey lighten-1">
-              <div class="determinate blue lighten-1" style="width:10%;"></div>
+            <div class="col s12 m6 l3">
+                <div class="card-panel center">
+                    <i class="material-icons medium">supervisor_account</i>
+                    <h5>Usuarios</h5>
+                    <h3 class="count">350</h3>
+                    <div class="progress grey lighten-1">
+                        <div class="determinate blue lighten-1" style="width:10%;"></div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <!-- Section visitors -->
     <section class="section section-visitors blue lighten-4">
-      <div class="row">
-        <div class="col s12 m6 l8">
-          <div class="card-panel">
-            <div id="chartContainer" style="height: 300px; width: 100%;"></div>
-          </div>
-        </div>
-        <div class="col s12 m5 l4">
-          <!-- lastest comments -->
-          <ul class="collection with-header lastest-comments">
-            <li class="collection-header"><h5>Ultimos Comentarios</h5></li>
-            <li class="collection-item  avatar">
-              <img src="img/person1.jpg" class="circle" />
-              <span class="title">Luis Fuentes</span>
-              <p class="truncate">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-                harum aperiam nulla blanditiis quae voluptatem totam ea
-                explicabo magni, facilis, dolore ducimus soluta consectetur rem
-                itaque vel tenetur id impedit!
-              </p>
-              <a href="" class="approve green-text">Approve</a> |
-              <a href="" class="deny red-text">Deny</a>
-            </li>
+        <div class="row">
+            <div class="col s12 m6 l8">
+                <div class="card-panel">
+                    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+                </div>
+            </div>
+            <div class="col s12 m5 l4">
+                <!-- lastest comments -->
+                <ul class="collection with-header lastest-comments">
+                    <li class="collection-header">
+                        <h5>Ultimos Comentarios</h5>
+                    </li>
+                    <li class="collection-item  avatar">
+                        <img src="img/person1.jpg" class="circle" />
+                        <span class="title">Luis Fuentes</span>
+                        <p class="truncate">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                            harum aperiam nulla blanditiis quae voluptatem totam ea
+                            explicabo magni, facilis, dolore ducimus soluta consectetur rem
+                            itaque vel tenetur id impedit!
+                        </p>
+                        <a href="" class="approve green-text">Approve</a> |
+                        <a href="" class="deny red-text">Deny</a>
+                    </li>
 
-            <li class="collection-item  avatar">
-              <img src="img/person2.jpg" class="circle" />
-              <span class="title">Pablo Ruiz</span>
-              <p class="truncate">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-                harum aperiam nulla blanditiis quae voluptatem totam ea
-                explicabo magni, facilis, dolore ducimus soluta consectetur rem
-                itaque vel tenetur id impedit!
-              </p>
-              <a href="" class="approve green-text">Approve</a> |
-              <a href="" class="deny red-text">Deny</a>
-            </li>
-            <li class="collection-item  avatar">
-              <img src="img/person3.jpg" class="circle" />
-              <span class="title">Alba Solis</span>
-              <p class="truncate">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-                harum aperiam nulla blanditiis quae voluptatem totam ea
-                explicabo magni, facilis, dolore ducimus soluta consectetur rem
-                itaque vel tenetur id impedit!
-              </p>
-              <a href="" class="approve green-text">Approve</a> |
-              <a href="" class="deny red-text">Deny</a>
-            </li>
-          </ul>
+                    <li class="collection-item  avatar">
+                        <img src="img/person2.jpg" class="circle" />
+                        <span class="title">Pablo Ruiz</span>
+                        <p class="truncate">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                            harum aperiam nulla blanditiis quae voluptatem totam ea
+                            explicabo magni, facilis, dolore ducimus soluta consectetur rem
+                            itaque vel tenetur id impedit!
+                        </p>
+                        <a href="" class="approve green-text">Approve</a> |
+                        <a href="" class="deny red-text">Deny</a>
+                    </li>
+                    <li class="collection-item  avatar">
+                        <img src="img/person3.jpg" class="circle" />
+                        <span class="title">Alba Solis</span>
+                        <p class="truncate">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                            harum aperiam nulla blanditiis quae voluptatem totam ea
+                            explicabo magni, facilis, dolore ducimus soluta consectetur rem
+                            itaque vel tenetur id impedit!
+                        </p>
+                        <a href="" class="approve green-text">Approve</a> |
+                        <a href="" class="deny red-text">Deny</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- Recent Post & Todos -->
     <section class="section section-recent">
-      <div class="row">
-        <div class="col s12 m6 l8">
-          <div class="card">
-            <div class="card-content">
-              <span class="card-title">Ultimos Posts</span>
-              <table class="striped">
-                <thead>
-                  <tr>
-                    <th>Titulo</th>
-                    <th>Categoria</th>
-                    <th></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Post Uno</td>
-                    <td>Desarrollo Web</td>
-                    <td>
-                      <a href="details.html" class="btn blue lighten-2"
-                        >Detalless</a
-                      >
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Post Dos</td>
-                    <td>Diseño</td>
-                    <td>
-                      <a href="details.html" class="btn blue lighten-2"
-                        >Detalles</a
-                      >
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Post Tres</td>
-                    <td>Desarrollo</td>
-                    <td>
-                      <a href="details.html" class="btn blue lighten-2"
-                        >Detalles</a
-                      >
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m6 l4">
-          <div class="card">
-            <div class="card-content">
-              <span class="card-title">Recordatorios</span>
-              <form id="todo-form">
-                <div class="input-field">
-                  <input type="text" id="todo" placeholder="add todo...." />
+        <div class="row">
+            <div class="col s12 m6 l8">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Ultimos Posts</span>
+                        <table class="striped">
+                            <thead>
+                                <tr>
+                                    <th>Titulo</th>
+                                    <th>Categoria</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Post Uno</td>
+                                    <td>Desarrollo Web</td>
+                                    <td>
+                                        <a href="details.html" class="btn blue lighten-2">Detalless</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Post Dos</td>
+                                    <td>Diseño</td>
+                                    <td>
+                                        <a href="details.html" class="btn blue lighten-2">Detalles</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Post Tres</td>
+                                    <td>Desarrollo</td>
+                                    <td>
+                                        <a href="details.html" class="btn blue lighten-2">Detalles</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-              </form>
-              <ul class="collection todos">
-                <li class="collection-item">
-                  <div>
-                    Recordatorio Uno
-                    <a href="#!" class="secondary-content delete"
-                      ><i class="material-icons">close</i></a
-                    >
-                  </div>
-                </li>
-                <li class="collection-item">
-                  <div>
-                    Recordatorio Dos
-                    <a href="#!" class="secondary-content delete"
-                      ><i class="material-icons">close</i></a
-                    >
-                  </div>
-                </li>
-              </ul>
             </div>
-          </div>
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Recordatorios</span>
+                        <form id="todo-form">
+                            <div class="input-field">
+                                <input type="text" id="todo" placeholder="add todo...." />
+                            </div>
+                        </form>
+                        <ul class="collection todos">
+                            <li class="collection-item">
+                                <div>
+                                    Recordatorio Uno
+                                    <a href="#!" class="secondary-content delete"><i class="material-icons">close</i></a>
+                                </div>
+                            </li>
+                            <li class="collection-item">
+                                <div>
+                                    Recordatorio Dos
+                                    <a href="#!" class="secondary-content delete"><i class="material-icons">close</i></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- Footer -->
     <footer class="section blue darken-2 white-text center">
-      <p>JoinTICS Dashboard Copyright &copy; 2018</p>
+        <p>JoinTICS Dashboard Copyright &copy; 2018</p>
     </footer>
 
     <!-- Fixed action button -->
     <div class="fixed-action-btn">
-      <a class="btn-floating btn-large red">
-        <i class="material-icons">add</i>
-      </a>
-      <ul>
-        <li>
-          <a href="#post-modal" class="modal-trigger btn-floating blue"
-            ><i class="material-icons">mode_edit</i></a
-          >
-        </li>
-        <li>
-          <a href="#category-modal" class="modal-trigger btn-floating blue"
-            ><i class="material-icons">folder</i></a
-          >
-        </li>
-        <li>
-          <a href="#user-modal" class="modal-trigger btn-floating blue"
-            ><i class="material-icons">supervisor_account</i></a
-          >
-        </li>
-      </ul>
+        <a class="btn-floating btn-large red">
+            <i class="material-icons">add</i>
+        </a>
+        <ul>
+            <li>
+                <a href="#post-modal" class="modal-trigger btn-floating blue"><i class="material-icons">mode_edit</i></a>
+            </li>
+            <li>
+                <a href="#category-modal" class="modal-trigger btn-floating blue"><i class="material-icons">folder</i></a>
+            </li>
+            <li>
+                <a href="#user-modal" class="modal-trigger btn-floating blue"><i class="material-icons">supervisor_account</i></a>
+            </li>
+        </ul>
     </div>
 
     <!-- Add Post Modal -->
     <div class="modal" id="post-modal">
-      <div class="modal-content">
-        <h4>Añadir Post</h4>
-        <form>
-          <div class="input-field">
-            <input type="text" id="title" /><label for="title">Post</label>
-          </div>
-          <div class="input-field">
-            <select>
-              <option value="" disable select>Seleccionar Opción</option>
-              <option value="1">Desarrollo Web</option>
-              <option value="2">Diseño Gráfico</option>
-              <option value="3">Dispositivos</option>
-              <option value="4">Otros</option>
-            </select>
-            <label>Categoría</label>
-          </div>
-          <div class="input-field">
-            <textarea
-              name="body"
-              id="body"
-              class="materialize-textarea"
-            ></textarea>
-            <label for="body">Mensaje</label>
-          </div>
-        </form>
-        <div class="modal-footer">
-          <a href="#!" class="modal-action modal-close btn blue white-text"
-            >Enviar</a
-          >
+        <div class="modal-content">
+            <h4>Añadir Post</h4>
+            <form>
+                <div class="input-field">
+                    <input type="text" id="title" /><label for="title">Post</label>
+                </div>
+                <div class="input-field">
+                    <select>
+                        <option value="" disable select>Seleccionar Opción</option>
+                        <option value="1">Desarrollo Web</option>
+                        <option value="2">Diseño Gráfico</option>
+                        <option value="3">Dispositivos</option>
+                        <option value="4">Otros</option>
+                    </select>
+                    <label>Categoría</label>
+                </div>
+                <div class="input-field">
+                    <textarea name="body" id="body" class="materialize-textarea"></textarea>
+                    <label for="body">Mensaje</label>
+                </div>
+            </form>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close btn blue white-text">Enviar</a>
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- Add Category Modal -->
     <div class="modal" id="category-modal">
-      <div class="modal-content">
-        <h4>Añadir Categoria</h4>
-        <form>
-          <div class="input-field">
-            <input type="text" id="title" /><label for="title">Título</label>
-          </div>
-        </form>
-        <div class="modal-footer">
-          <a href="#!" class="modal-action modal-close btn blue white-text"
-            >Enviar</a
-          >
+        <div class="modal-content">
+            <h4>Añadir Categoria</h4>
+            <form>
+                <div class="input-field">
+                    <input type="text" id="title" /><label for="title">Título</label>
+                </div>
+            </form>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close btn blue white-text">Enviar</a>
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- Add User Modal -->
     <div class="modal" id="user-modal">
-      <div class="modal-content">
-        <h4>Nuevo Usuario</h4>
-        <form>
-          <div class="input-field">
-            <input type="text" id="name" /><label for="name">Nombre</label>
-          </div>
-          <div class="input-field">
-            <input type="email" id="email" /><label for="email">Email</label>
-          </div>
-          <div class="input-field">
-            <input type="password" id="password" /><label for="password"
-              >Password</label
-            >
-          </div>
-          <div class="input-field">
-            <input type="password" id="password2" /><label for="password2"
-              >Repetir Password</label
-            >
-          </div>
-        </form>
-        <div class="modal-footer">
-          <a href="#!" class="modal-action modal-close btn blue white-text"
-            >Enviar</a
-          >
+        <div class="modal-content">
+            <h4>Nuevo Usuario</h4>
+            <form>
+                <div class="input-field">
+                    <input type="text" id="name" /><label for="name">Nombre</label>
+                </div>
+                <div class="input-field">
+                    <input type="email" id="email" /><label for="email">Email</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" id="password" /><label for="password">Password</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" id="password2" /><label for="password2">Repetir Password</label>
+                </div>
+            </form>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close btn blue white-text">Enviar</a>
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- Preloader -->
     <div class="loader preloader-wrapper big active">
-      <div class="spinner-layer spinner-blue-only">
-        <div class="circle-clipper left"><div class="circle"></div></div>
-        <div class="gap-patch"><div class="circle"></div></div>
-        <div class="circle-clipper right"><div class="circle"></div></div>
-      </div>
+        <div class="spinner-layer spinner-blue-only">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
     </div>
     <!-- Import jQuery before materialize.js -->
-    <script
-      type="text/javascript"
-      src="https://code.jquery.com/jquery-3.2.1.min.js"
-    ></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script
-      type="text/javascript"
-      src="https://canvasjs.com/assets/script/canvasjs.min.js"
-    ></script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
     <script src="js/chart.js"></script>
     <script src="https://cdn.ckeditor.com/4.10.1/standard/ckeditor.js"></script>
     <script>
-      $(".section").hide();
-      setTimeout(function() {
-        $(document).ready(function() {
-          // Show Section
-          $(".section").fadeIn();
+        $(".section").hide();
+        setTimeout(function () {
+            $(document).ready(function () {
+                // Show Section
+                $(".section").fadeIn();
 
-          // Hide Preloader
-          $(".loader").fadeOut();
+                // Hide Preloader
+                $(".loader").fadeOut();
 
-          //Init Side nav
-          $(".button-collapse").sideNav();
+                //Init Side nav
+                $(".button-collapse").sideNav();
 
-          // Init Modal
-          $(".modal").modal();
+                // Init Modal
+                $(".modal").modal();
 
-          // Select
-          $("select").material_select();
+                // Select
+                $("select").material_select();
 
-          // Counter
-          $(".count").each(function() {
-            $(this)
-              .prop("Counter", 0)
-              .animate(
-                {
-                  Counter: $(this).text()
-                },
-                {
-                  duration: 1000,
-                  easing: "swing",
-                  step: function(now) {
-                    $(this).text(Math.ceil(now));
-                  }
-                }
-              );
-          });
+                // Counter
+                $(".count").each(function () {
+                    $(this)
+                        .prop("Counter", 0)
+                        .animate(
+                            {
+                                Counter: $(this).text()
+                            },
+                            {
+                                duration: 1000,
+                                easing: "swing",
+                                step: function (now) {
+                                    $(this).text(Math.ceil(now));
+                                }
+                            }
+                        );
+                });
 
-          // Commets Aprobe Deny
-          $(".approve").click(function(e) {
-            Materialize.toast("Comment Approved", 3000);
-            e.preventDefault();
-          });
-          $(".deny").click(function(e) {
-            Materialize.toast("Comment Deny", 3000);
-            e.preventDefault();
-          });
+                // Commets Aprobe Deny
+                $(".approve").click(function (e) {
+                    Materialize.toast("Comment Approved", 3000);
+                    e.preventDefault();
+                });
+                $(".deny").click(function (e) {
+                    Materialize.toast("Comment Deny", 3000);
+                    e.preventDefault();
+                });
 
-          // Quick todos
-          $("#todo-form").submit(function(e) {
-            const output = `<li class="collection-item">
+                // Quick todos
+                $("#todo-form").submit(function (e) {
+                    const output = `<li class="collection-item">
                                             <div>${$("#todo").val()}
                                                 <a href="#!" class="secondary-content delete"><i class="material-icons">close</i></a></div>
                                         </li>`;
-            $(".todos").append(output);
-            e.preventDefault();
-            Materialize.toast("Todo Added", 3000);
-          });
+                    $(".todos").append(output);
+                    e.preventDefault();
+                    Materialize.toast("Todo Added", 3000);
+                });
 
-          //Delete Todos
-          $(".todos").on("click", ".delete", function(e) {
-            $(this)
-              .parent()
-              .parent()
-              .remove();
-            e.preventDefault();
-            Materialize.toast("Todo Removed", 3000);
-          });
+                //Delete Todos
+                $(".todos").on("click", ".delete", function (e) {
+                    $(this)
+                        .parent()
+                        .parent()
+                        .remove();
+                    e.preventDefault();
+                    Materialize.toast("Todo Removed", 3000);
+                });
 
-          CKEDITOR.replace("body");
-        });
-      }, 1000);
+                CKEDITOR.replace("body");
+            });
+        }, 1000);
     </script>
-  </body>
+</body>
+
 </html>
